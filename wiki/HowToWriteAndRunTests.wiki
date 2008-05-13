@@ -18,7 +18,7 @@ Check out the tests in the /test directory, especially the simpleTest.js file.
 
 The general pattern for test files is as follows
 
-  * include the unit you are testing
+  * include the unit you are testing (IncludingFiles)
   * set up global variables (don't forget to 'var' them or the tests will fail, see GlobalVars)
   * call 'testCases' passing in 'test' as the first variable
   * write a setUp function to mock all your dependencies.  JavascriptMocking is easy!
