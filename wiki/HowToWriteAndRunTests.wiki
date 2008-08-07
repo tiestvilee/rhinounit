@@ -30,6 +30,6 @@ The general pattern for test files is as follows
   * set up global variables (don't forget to 'var' them or the tests will fail, see GlobalVars)
   * call 'testCases' passing in 'test' as the first variable
   * write a setUp function to mock all your dependencies.  JavascriptMocking is easy!
-  * write some tests, using assert.that to assert conditions, and assert.mustCall to make sure that functions are called (see AssertMustCall)
+  * write some tests, using assert.that to assert conditions, and assert.mustCall to make sure that functions are called (see APIDescription and especially AssertMustCall)
 
 And that's about that
