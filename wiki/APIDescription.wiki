@@ -18,6 +18,8 @@ Use this to assert that a function called {{{thisMethod}}} on {{{onThisObject}}}
 
 {{{assert.mustCall(myObject, "funcThatMustBeCalled");}}}
 
+See AssertMustCall for more information.
+
 ===assert.mustCallNTimes(onThisObject, numberOfTimes, thisMethod)===
 
 This works the same as {{{mustCall}}}, but specifies an exact number of times the function must be called.
@@ -34,6 +36,8 @@ function myCallback(parameter) {
 }
 function_I_am_testing(assert.functionThatMustBeCalled("callback1", myCallback));
 }}}
+
+See AssertMustCall for more information.
 
 ===assert.functionThatMustBeCalledNTimes(thisMethod, numberOfTimes, originalFunction)===
 
