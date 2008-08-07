@@ -1,5 +1,7 @@
 #summary It is helpful to assert that functions are called
 
+Assert Must Call function is one of the most useful assertions in RhinoUnit.  For more assertions and functions, see APIDescription.
+
 = Assert Must Call method =
 
 To cover all scenarios, it is often useful to assert that a function is called.  This is easily accomplished using the `assert.mustCall(object, functionName)` function which will ensure that the function with the name 'functionName' is called on the supplied object.
